@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let tableView: UITableView = UITableView()
+    
+    override func loadView() {
+        view = tableView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
